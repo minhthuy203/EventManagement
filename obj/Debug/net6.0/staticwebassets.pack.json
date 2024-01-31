@@ -1,0 +1,1709 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\EventManagement.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EventManagement.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\css\\analytics.css",
+      "PackagePath": "staticwebassets\\css\\analytics.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\css\\datepicker.min.css",
+      "PackagePath": "staticwebassets\\css\\datepicker.min.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\css\\jquery-steps.css",
+      "PackagePath": "staticwebassets\\css\\jquery-steps.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\css\\night-mode.css",
+      "PackagePath": "staticwebassets\\css\\night-mode.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\css\\vertical-responsive-menu.min.css",
+      "PackagePath": "staticwebassets\\css\\vertical-responsive-menu.min.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\about\\feature-1.png",
+      "PackagePath": "staticwebassets\\images\\about\\feature-1.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\about\\feature-2.png",
+      "PackagePath": "staticwebassets\\images\\about\\feature-2.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\about\\feature-3.png",
+      "PackagePath": "staticwebassets\\images\\about\\feature-3.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\about\\feature-4.png",
+      "PackagePath": "staticwebassets\\images\\about\\feature-4.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\about\\feature-5.png",
+      "PackagePath": "staticwebassets\\images\\about\\feature-5.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\about\\img-1.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\img-1.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\about\\img-2.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\img-2.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\about\\img-3.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\img-3.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\about\\team-1.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\team-1.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\about\\team-2.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\team-2.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\about\\team-3.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\team-3.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\about\\team-4.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\team-4.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\about\\team-5.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\team-5.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\about\\team-6.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\team-6.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\about\\team-7.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\team-7.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\about\\team-8.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\team-8.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\app-store.png",
+      "PackagePath": "staticwebassets\\images\\app-store.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\banner.jpg",
+      "PackagePath": "staticwebassets\\images\\banner.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\banners\\custom-img.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\custom-img.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\banners\\hero-cover-01.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\hero-cover-01.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\banners\\subscription-bg.png",
+      "PackagePath": "staticwebassets\\images\\banners\\subscription-bg.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\banners\\up-shape.png",
+      "PackagePath": "staticwebassets\\images\\banners\\up-shape.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\blog-imgs\\img-1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-imgs\\img-1.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\blog-imgs\\img-10.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-imgs\\img-10.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\blog-imgs\\img-11.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-imgs\\img-11.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\blog-imgs\\img-12.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-imgs\\img-12.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\blog-imgs\\img-2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-imgs\\img-2.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\blog-imgs\\img-3.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-imgs\\img-3.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\blog-imgs\\img-4.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-imgs\\img-4.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\blog-imgs\\img-5.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-imgs\\img-5.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\blog-imgs\\img-6.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-imgs\\img-6.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\blog-imgs\\img-7.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-imgs\\img-7.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\blog-imgs\\img-8.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-imgs\\img-8.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\blog-imgs\\img-9.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-imgs\\img-9.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\calendar.png",
+      "PackagePath": "staticwebassets\\images\\calendar.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\confirmed.png",
+      "PackagePath": "staticwebassets\\images\\confirmed.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\dark-banner.jpg",
+      "PackagePath": "staticwebassets\\images\\dark-banner.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\dark-logo.svg",
+      "PackagePath": "staticwebassets\\images\\dark-logo.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\discount.png",
+      "PackagePath": "staticwebassets\\images\\discount.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\event-imgs\\big-1.jpg",
+      "PackagePath": "staticwebassets\\images\\event-imgs\\big-1.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\event-imgs\\big-2.jpg",
+      "PackagePath": "staticwebassets\\images\\event-imgs\\big-2.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\event-imgs\\img-1.jpg",
+      "PackagePath": "staticwebassets\\images\\event-imgs\\img-1.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\event-imgs\\img-2.jpg",
+      "PackagePath": "staticwebassets\\images\\event-imgs\\img-2.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\event-imgs\\img-3.jpg",
+      "PackagePath": "staticwebassets\\images\\event-imgs\\img-3.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\event-imgs\\img-4.jpg",
+      "PackagePath": "staticwebassets\\images\\event-imgs\\img-4.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\event-imgs\\img-5.jpg",
+      "PackagePath": "staticwebassets\\images\\event-imgs\\img-5.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\event-imgs\\img-6.jpg",
+      "PackagePath": "staticwebassets\\images\\event-imgs\\img-6.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\event-imgs\\img-7.jpg",
+      "PackagePath": "staticwebassets\\images\\event-imgs\\img-7.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\event-imgs\\img-8.jpg",
+      "PackagePath": "staticwebassets\\images\\event-imgs\\img-8.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\fav.png",
+      "PackagePath": "staticwebassets\\images\\fav.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\google-play.png",
+      "PackagePath": "staticwebassets\\images\\google-play.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\e-learning.png",
+      "PackagePath": "staticwebassets\\images\\icons\\e-learning.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\easy-1.png",
+      "PackagePath": "staticwebassets\\images\\icons\\easy-1.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\easy-2.png",
+      "PackagePath": "staticwebassets\\images\\icons\\easy-2.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\easy-3.png",
+      "PackagePath": "staticwebassets\\images\\icons\\easy-3.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\feature-icon-1.png",
+      "PackagePath": "staticwebassets\\images\\icons\\feature-icon-1.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\feature-icon-10.png",
+      "PackagePath": "staticwebassets\\images\\icons\\feature-icon-10.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\feature-icon-11.png",
+      "PackagePath": "staticwebassets\\images\\icons\\feature-icon-11.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\feature-icon-12.png",
+      "PackagePath": "staticwebassets\\images\\icons\\feature-icon-12.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\feature-icon-2.png",
+      "PackagePath": "staticwebassets\\images\\icons\\feature-icon-2.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\feature-icon-3.png",
+      "PackagePath": "staticwebassets\\images\\icons\\feature-icon-3.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\feature-icon-4.png",
+      "PackagePath": "staticwebassets\\images\\icons\\feature-icon-4.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\feature-icon-5.png",
+      "PackagePath": "staticwebassets\\images\\icons\\feature-icon-5.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\feature-icon-6.png",
+      "PackagePath": "staticwebassets\\images\\icons\\feature-icon-6.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\feature-icon-7.png",
+      "PackagePath": "staticwebassets\\images\\icons\\feature-icon-7.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\feature-icon-8.png",
+      "PackagePath": "staticwebassets\\images\\icons\\feature-icon-8.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\feature-icon-9.png",
+      "PackagePath": "staticwebassets\\images\\icons\\feature-icon-9.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\health-and-welbeing.png",
+      "PackagePath": "staticwebassets\\images\\icons\\health-and-welbeing.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\in.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\in.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\online-class.png",
+      "PackagePath": "staticwebassets\\images\\icons\\online-class.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\pricing-banner.gif",
+      "PackagePath": "staticwebassets\\images\\icons\\pricing-banner.gif"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\sponsor-1.png",
+      "PackagePath": "staticwebassets\\images\\icons\\sponsor-1.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\sponsor-2.png",
+      "PackagePath": "staticwebassets\\images\\icons\\sponsor-2.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\sponsor-3.png",
+      "PackagePath": "staticwebassets\\images\\icons\\sponsor-3.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\sponsor-4.png",
+      "PackagePath": "staticwebassets\\images\\icons\\sponsor-4.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\sponsor-5.png",
+      "PackagePath": "staticwebassets\\images\\icons\\sponsor-5.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\sponsor-6.png",
+      "PackagePath": "staticwebassets\\images\\icons\\sponsor-6.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\sponsor-7.png",
+      "PackagePath": "staticwebassets\\images\\icons\\sponsor-7.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\standard-webinar.png",
+      "PackagePath": "staticwebassets\\images\\icons\\standard-webinar.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\step-icon-1.png",
+      "PackagePath": "staticwebassets\\images\\icons\\step-icon-1.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\step-icon-10.png",
+      "PackagePath": "staticwebassets\\images\\icons\\step-icon-10.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\step-icon-11.png",
+      "PackagePath": "staticwebassets\\images\\icons\\step-icon-11.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\step-icon-12.png",
+      "PackagePath": "staticwebassets\\images\\icons\\step-icon-12.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\step-icon-2.png",
+      "PackagePath": "staticwebassets\\images\\icons\\step-icon-2.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\step-icon-3.png",
+      "PackagePath": "staticwebassets\\images\\icons\\step-icon-3.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\step-icon-4.png",
+      "PackagePath": "staticwebassets\\images\\icons\\step-icon-4.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\step-icon-5.png",
+      "PackagePath": "staticwebassets\\images\\icons\\step-icon-5.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\step-icon-6.png",
+      "PackagePath": "staticwebassets\\images\\icons\\step-icon-6.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\step-icon-7.png",
+      "PackagePath": "staticwebassets\\images\\icons\\step-icon-7.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\step-icon-8.png",
+      "PackagePath": "staticwebassets\\images\\icons\\step-icon-8.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\step-icon-9.png",
+      "PackagePath": "staticwebassets\\images\\icons\\step-icon-9.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\talk-show-1.png",
+      "PackagePath": "staticwebassets\\images\\icons\\talk-show-1.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\talk-show.png",
+      "PackagePath": "staticwebassets\\images\\icons\\talk-show.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\training-workshop.png",
+      "PackagePath": "staticwebassets\\images\\icons\\training-workshop.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\venue-events.png",
+      "PackagePath": "staticwebassets\\images\\icons\\venue-events.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\icons\\webinar.png",
+      "PackagePath": "staticwebassets\\images\\icons\\webinar.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\logo-icon.svg",
+      "PackagePath": "staticwebassets\\images\\logo-icon.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\images\\logo.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\present-box.png",
+      "PackagePath": "staticwebassets\\images\\present-box.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\profile-imgs\\img-1.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-imgs\\img-1.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\profile-imgs\\img-13.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-imgs\\img-13.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\profile-imgs\\img-2.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-imgs\\img-2.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\qr.png",
+      "PackagePath": "staticwebassets\\images\\qr.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\sign-logo.svg",
+      "PackagePath": "staticwebassets\\images\\sign-logo.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\sign_bg.jpg",
+      "PackagePath": "staticwebassets\\images\\sign_bg.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\ticket.png",
+      "PackagePath": "staticwebassets\\images\\ticket.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\images\\visa-master-card.png",
+      "PackagePath": "staticwebassets\\images\\visa-master-card.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\img\\img_events\\20240119154345_0383bd96.png",
+      "PackagePath": "staticwebassets\\img\\img_events\\20240119154345_0383bd96.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\img\\img_events\\20240120231118_4ae1e86c.png",
+      "PackagePath": "staticwebassets\\img\\img_events\\20240120231118_4ae1e86c.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\img\\img_events\\20240120231226_f7bb90e2",
+      "PackagePath": "staticwebassets\\img\\img_events"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\img\\img_events\\20240120231256_d53d8f5e.png",
+      "PackagePath": "staticwebassets\\img\\img_events\\20240120231256_d53d8f5e.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\img\\img_events\\20240121010908_a6e40f00",
+      "PackagePath": "staticwebassets\\img\\img_events"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\img\\img_events\\20240121010936_13de94f9.png",
+      "PackagePath": "staticwebassets\\img\\img_events\\20240121010936_13de94f9.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\img\\img_events\\20240121011232_297b640a",
+      "PackagePath": "staticwebassets\\img\\img_events"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\img\\img_events\\20240121011235_748e6d2f",
+      "PackagePath": "staticwebassets\\img\\img_events"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\img\\img_events\\20240121011235_cc987e3f",
+      "PackagePath": "staticwebassets\\img\\img_events"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\img\\img_events\\20240121011338_446bc5a7",
+      "PackagePath": "staticwebassets\\img\\img_events"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\img\\img_events\\20240121011643_b1001b0b",
+      "PackagePath": "staticwebassets\\img\\img_events"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\img\\img_events\\20240121011810_92e65ea6",
+      "PackagePath": "staticwebassets\\img\\img_events"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\img\\img_events\\20240121012309_48675e25.png",
+      "PackagePath": "staticwebassets\\img\\img_events\\20240121012309_48675e25.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\img\\img_events\\20240121020046_49b32096.png",
+      "PackagePath": "staticwebassets\\img\\img_events\\20240121020046_49b32096.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\img\\img_events\\20240121021018_797637a3.png",
+      "PackagePath": "staticwebassets\\img\\img_events\\20240121021018_797637a3.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\img\\img_events\\20240123231733_06d8cdfb.jpg",
+      "PackagePath": "staticwebassets\\img\\img_events\\20240123231733_06d8cdfb.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\img\\img_events\\20240124011342_ef2500a2.jpg",
+      "PackagePath": "staticwebassets\\img\\img_events\\20240124011342_ef2500a2.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\img\\img_events\\20240125003251_9fec9119.jpg",
+      "PackagePath": "staticwebassets\\img\\img_events\\20240125003251_9fec9119.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\img\\img_events\\20240125003406_feb9dc6e.jpg",
+      "PackagePath": "staticwebassets\\img\\img_events\\20240125003406_feb9dc6e.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\img\\img_events\\library.jpg",
+      "PackagePath": "staticwebassets\\img\\img_events\\library.jpg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\js\\analytics.js",
+      "PackagePath": "staticwebassets\\js\\analytics.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\js\\datepicker.min.js",
+      "PackagePath": "staticwebassets\\js\\datepicker.min.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\js\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\js\\jquery-steps.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-steps.min.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\js\\night-mode.js",
+      "PackagePath": "staticwebassets\\js\\night-mode.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\js\\timer.js",
+      "PackagePath": "staticwebassets\\js\\timer.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\js\\vertical-responsive-menu.min.js",
+      "PackagePath": "staticwebassets\\js\\vertical-responsive-menu.min.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\OwlCarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\vendor\\OwlCarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\OwlCarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\vendor\\OwlCarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\OwlCarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\vendor\\OwlCarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\OwlCarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\vendor\\OwlCarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\chartist-plugin-tooltip\\dist\\chartist-plugin-tooltip.css",
+      "PackagePath": "staticwebassets\\vendor\\chartist-plugin-tooltip\\dist\\chartist-plugin-tooltip.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\chartist-plugin-tooltip\\dist\\chartist-plugin-tooltip.min.js",
+      "PackagePath": "staticwebassets\\vendor\\chartist-plugin-tooltip\\dist\\chartist-plugin-tooltip.min.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\chartist\\dist\\chartist.min.css",
+      "PackagePath": "staticwebassets\\vendor\\chartist\\dist\\chartist.min.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\chartist\\dist\\chartist.min.js",
+      "PackagePath": "staticwebassets\\vendor\\chartist\\dist\\chartist.min.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\ckeditor5\\ckeditor.js",
+      "PackagePath": "staticwebassets\\vendor\\ckeditor5\\ckeditor.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\ckeditor5\\sample\\css\\sample.css",
+      "PackagePath": "staticwebassets\\vendor\\ckeditor5\\sample\\css\\sample.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\fontawesome-free\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\mixitup\\dist\\mixitup.min.js",
+      "PackagePath": "staticwebassets\\vendor\\mixitup\\dist\\mixitup.min.js"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\css\\unicons.css",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\css\\unicons.css"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-0.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-0.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-0.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-0.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-0.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-0.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-0.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-0.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-0.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-0.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-1.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-1.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-1.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-1.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-1.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-1.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-1.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-1.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-1.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-1.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-10.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-10.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-10.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-10.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-10.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-10.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-10.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-10.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-10.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-10.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-11.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-11.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-11.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-11.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-11.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-11.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-11.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-11.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-11.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-11.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-12.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-12.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-12.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-12.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-12.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-12.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-12.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-12.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-12.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-12.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-13.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-13.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-13.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-13.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-13.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-13.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-13.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-13.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-13.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-13.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-14.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-14.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-14.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-14.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-14.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-14.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-14.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-14.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-14.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-14.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-15.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-15.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-15.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-15.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-15.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-15.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-15.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-15.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-15.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-15.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-16.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-16.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-16.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-16.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-16.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-16.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-16.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-16.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-16.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-16.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-17.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-17.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-17.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-17.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-17.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-17.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-17.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-17.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-17.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-17.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-18.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-18.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-18.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-18.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-18.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-18.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-18.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-18.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-18.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-18.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-19.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-19.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-19.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-19.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-19.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-19.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-19.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-19.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-19.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-19.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-2.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-2.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-2.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-2.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-2.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-2.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-2.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-2.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-2.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-2.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-20.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-20.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-20.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-20.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-20.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-20.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-20.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-20.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-20.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-20.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-21.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-21.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-21.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-21.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-21.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-21.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-21.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-21.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-21.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-21.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-22.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-22.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-22.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-22.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-22.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-22.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-22.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-22.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-22.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-22.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-23.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-23.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-23.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-23.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-23.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-23.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-23.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-23.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-23.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-23.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-24.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-24.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-24.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-24.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-24.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-24.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-24.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-24.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-24.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-24.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-25.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-25.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-25.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-25.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-25.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-25.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-25.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-25.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-25.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-25.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-26.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-26.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-26.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-26.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-26.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-26.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-26.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-26.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-26.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-26.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-27.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-27.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-27.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-27.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-27.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-27.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-27.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-27.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-27.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-27.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-28.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-28.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-28.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-28.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-28.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-28.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-28.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-28.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-28.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-28.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-29.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-29.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-29.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-29.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-29.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-29.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-29.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-29.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-29.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-29.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-3.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-3.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-3.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-3.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-3.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-3.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-3.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-3.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-3.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-3.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-30.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-30.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-30.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-30.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-30.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-30.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-30.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-30.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-30.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-30.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-31.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-31.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-31.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-31.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-31.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-31.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-31.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-31.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-31.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-31.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-32.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-32.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-32.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-32.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-32.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-32.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-32.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-32.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-32.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-32.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-33.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-33.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-33.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-33.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-33.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-33.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-33.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-33.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-33.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-33.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-34.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-34.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-34.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-34.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-34.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-34.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-34.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-34.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-34.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-34.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-35.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-35.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-35.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-35.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-35.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-35.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-35.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-35.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-35.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-35.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-36.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-36.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-36.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-36.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-36.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-36.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-36.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-36.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-36.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-36.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-37.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-37.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-37.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-37.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-37.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-37.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-37.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-37.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-37.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-37.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-4.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-4.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-4.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-4.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-4.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-4.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-4.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-4.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-4.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-4.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-5.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-5.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-5.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-5.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-5.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-5.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-5.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-5.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-5.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-5.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-6.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-6.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-6.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-6.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-6.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-6.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-6.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-6.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-6.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-6.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-7.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-7.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-7.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-7.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-7.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-7.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-7.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-7.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-7.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-7.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-8.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-8.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-8.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-8.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-8.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-8.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-8.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-8.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-8.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-8.woff2"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-9.eot",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-9.eot"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-9.svg",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-9.svg"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-9.ttf",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-9.ttf"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-9.woff",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-9.woff"
+    },
+    {
+      "Id": "D:\\Ap\\bbb\\EventManagement\\src\\EventManagement\\wwwroot\\vendor\\unicons-2.0.1\\fonts\\unicons-9.woff2",
+      "PackagePath": "staticwebassets\\vendor\\unicons-2.0.1\\fonts\\unicons-9.woff2"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.EventManagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.EventManagement.props",
+      "PackagePath": "build\\EventManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.EventManagement.props",
+      "PackagePath": "buildMultiTargeting\\EventManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.EventManagement.props",
+      "PackagePath": "buildTransitive\\EventManagement.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

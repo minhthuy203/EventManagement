@@ -1,0 +1,85 @@
+﻿@using X.PagedList.Mvc.Core
+@using X.PagedList.Web.Common
+@model X.PagedList.IPagedList<EventManagement.Models.Event>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="h ero-banner">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-8 col-md-10">
+                <div class="hero-banner-content">
+                    <h2>Discover Events For All The Things You Love</h2>
+                    <div class="search-form main-form">
+                        <form method="get">
+                            <div class="row g-3">
+                                <div class="col-lg-8 col-md-12">
+                                    <div class="form-group">
+                                        <input class="form-control" name="evName" type="text" placeholder="Search Event ..." value="@ViewBag.NameEvent" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-12">
+                                    <button type="submit" class="main-btn btn-hover w-100">Find</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="explore-events p-80">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xl-12 col-lg-12 col-md-12">
+                <div class="event-filter-items">
+                    <div class="row" data-ref="event-filter-content">
+                        <p>@ViewBag.NameEventEmpty</p>
+                        @foreach (var item in Model)
+                        {
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix sports concert volunteer arts" data-ref="mixitup-target">
+                                <div class="main-card mt-4">
+                                    <div class="event-thumbnail">
+                                        <a asp-area="" asp-controller="Home" asp-action="EventsDetail" asp-route-eventId="@item.EventID" class="thumbnail-img">
+                                            <img src="~/img/img_events/@item.Image" />
+                                        </a>
+                                    </div>
+                                    <div class="event-content">
+                                        <a asp-area="" asp-controller="Home" asp-action="EventsDetail" asp-route-eventId="@item.EventID" class="event-title">@item.Title</a>
+                                        <div class="duration-price-remaining">
+                                            <span class="duration-price">$@item.Price</span>
+                                            @{
+                                                var remain = @item.QuantityTickets - @item.Participants.Count();
+                                            }
+                                            <span class="remaining"><i class="fa-solid fa-ticket fa-rotate-90"></i>@remain Remaining</span>
+                                        </div>
+                                    </div>
+                                    <div class="event-footer">
+                                        <div class="event-timing">
+                                            <div class="publish-date">
+                                                <span><i class="fa-solid fa-calendar-day me-2"></i>@item.StartTime</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <div class="browse-btn">
+                        @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), new PagedListRenderOptions
+                   {
+                       LiElementClasses = new string[] { "page-item" },
+                       PageClasses = new string[] { "page-link" },
+                       ContainerDivClasses = new string[] { "pagination" }
+                   })
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>

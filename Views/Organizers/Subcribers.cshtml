@@ -1,0 +1,52 @@
+﻿@model List<EventUser>
+@{
+    ViewData["Title"] = "Subcribers";
+    Layout = "~/Views/Shared/_OriganizerDashboard.cshtml";
+}
+
+<div class="dashboard-body">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="d-main-title">
+                    <h3><i class="fa-solid fa-user-group me-3"></i>Subcribers</h3>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="conversion-setup">
+                    <div class="tab-content">
+                        <div class="tab-pane fade active show" id="overview-tab" role="tabpanel">
+                            <div class="table-card mt-4">
+                                <div class="main-table">
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead class="thead-dark">
+                                                <tr>
+                                                    <th scope="col">FirstName</th>
+                                                    <th scope="col">LastName</th>
+                                                    <th scope="col">Email</th>
+                                                    <th scope="col">Event</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var eventUser in Model)
+                                                {
+                                                    <tr>
+                                                        <td>@eventUser.User.FirstName</td>
+                                                        <td>@eventUser.User.LastName</td>
+                                                        <td>@eventUser.User.Email</td>
+                                                        <td>@eventUser.Event.Title</td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

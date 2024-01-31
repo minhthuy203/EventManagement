@@ -1,0 +1,263 @@
+﻿@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="app-form">
+    <div class="app-form-sidebar">
+        <div class="sidebar-sign-logo">
+            <img src="images/sign-logo.svg" alt="">
+        </div>
+        <div class="sign_sidebar_text">
+            <h1>The Easiest Way to Create Events and Sell More Tickets Online</h1>
+        </div>
+    </div>
+    <div class="app-form-content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-md-10">
+                    <div class="app-top-items">
+                        <a asp-controller="Home" asp-action="Index">
+                            <div class="sign-logo" id="logo">
+                                <img src="images/logo.svg" alt="">
+                                <img class="logo-inverse" src="images/dark-logo.svg" alt="">
+                            </div>
+                        </a>
+                        <div class="app-top-right-link">
+                            Already have an account?<a class="sidebar-register-link" asp-area="" asp-controller="Account" asp-action="Login">Sign In</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-6 col-md-7">
+                    <div class="registration">
+                        <form>
+                            <h2 class="registration-title">Sign up to Barren</h2>
+                            <div class="row mt-3">
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="form-group mt-4">
+                                        <label class="form-label">First Name*</label>
+                                        <input class="form-control h_50" type="text" id="firstName" placeholder="Your First Name">
+                                        <span class="text-danger" id="firstNameError"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="form-group mt-4">
+                                        <label class="form-label">Last Name*</label>
+                                        <input class="form-control h_50" type="text" id="lastName" placeholder="Your Last Name">
+                                        <span class="text-danger" id="lastNameError"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group mt-4">
+                                        <label class="form-label">Your Email*</label>
+                                        <input class="form-control h_50" type="email" id="email" placeholder="Your Email">
+                                        <span class="text-danger" id="emailError"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group mt-4">
+                                        <div class="field-password">
+                                            <label class="form-label">Password*</label>
+                                        </div>
+                                        <div class="loc-group position-relative">
+                                            <input class="form-control h_5" type="password" id="password" placeholder="Your Password">
+                                            <span class="pass-show-eye" onclick="togglePassword('password')"><i class="fas fa-eye-slash"></i></span>
+                                            <span class="text-danger" id="passwordError"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group mt-4">
+                                        <div class="field-password">
+                                            <label class="form-label">Confirm your password*</label>
+                                        </div>
+                                        <div class="loc-group position-relative">
+                                            <input class="form-control h_5" type="password" id="confirmedPassword" placeholder="Confirm Your Password">
+                                            <span class="pass-show-eye" onclick="togglePassword('confirmedPassword')"><i class="fas fa-eye-slash"></i></span>
+                                            <span class="text-danger" id="confirmedPasswordError"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <button class="main-btn btn-hover w-100 mt-4" id="registerBtn">Sign Up</button>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="agree-text">
+                            By clicking "Sign up", you agree to Barren <a href="#">Terms & Conditions</a> and have read the <a href="#">Privacy Policy</a>.
+                        </div>
+                        <div class="divider">
+                            <span>or</span>
+                        </div>
+                        <div class="social-btns-list mb-lg-5">
+                            <button class="social-login-btn">
+                                <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 26.488 27.029"><g transform="translate(-0.126)"><path d="M1258.806,1021.475a11.578,11.578,0,0,0-.285-2.763h-12.688v5.015h7.448a6.605,6.605,0,0,1-2.763,4.384l-.025.168,4.012,3.108.278.028a13.214,13.214,0,0,0,4.024-9.941" transform="translate(-1232.192 -1007.66)" fill="#4285f4"></path><path d="M145.071,1502.921a12.881,12.881,0,0,0,8.949-3.273l-4.265-3.3a8,8,0,0,1-4.685,1.352,8.136,8.136,0,0,1-7.688-5.616l-.158.013-4.172,3.229-.055.152a13.5,13.5,0,0,0,12.073,7.448" transform="translate(-131.431 -1475.893)" fill="#34a853"></path><path d="M5.952,689.263a8.32,8.32,0,0,1-.45-2.673,8.744,8.744,0,0,1,.435-2.673l-.008-.179-4.224-3.28-.138.066a13.486,13.486,0,0,0,0,12.133l4.385-3.393" transform="translate(0 -673.076)" fill="#fbbc05"></path><path d="M145.071,5.225A7.49,7.49,0,0,1,150.3,7.238l3.814-3.724A12.984,12.984,0,0,0,145.071,0,13.5,13.5,0,0,0,133,7.448l4.37,3.394a8.169,8.169,0,0,1,7.7-5.616" transform="translate(-131.431)" fill="#eb4335"></path></g></svg>
+                                Sign in with Google
+                            </button>
+                            <button class="social-login-btn">
+                                <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 27 27"><g transform="translate(0)"><circle cx="13.5" cy="13.5" r="13.5" transform="translate(0 0)" fill="#3b5998"></circle><path d="M851.461,383.684h-3.1c-1.841,0-3.889.735-3.889,3.266.009.882,0,1.727,0,2.678h-2.13v3.215h2.2V402.1h4.035v-9.316h2.663l.241-3.163H848.5s.007-1.407,0-1.816c0-1,1.1-.943,1.164-.943.522,0,1.538,0,1.8,0v-3.176Z" transform="translate(-833.401 -379.385)" fill="#fff"></path></g></svg>
+                                Sign in with Facebook
+                            </button>
+                        </div>
+                        <div class="new-sign-link">
+                            Already have an account?<a class="signup-link" href="sign_in.html">Sign In</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-footer">
+            © 2023, Barren. All rights reserved. Powered by Wall
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        var registerBtn = document.getElementById("registerBtn");  // Sửa tên biến
+        if (registerBtn) {
+            registerBtn.addEventListener("click", function (event) {
+                Register(event);
+            });
+        }
+        function togglePassword(inputId) {
+            var passwordInput = document.getElementById(inputId);
+            var eyeIcon = passwordInput.nextElementSibling.querySelector("i");
+
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text";
+                eyeIcon.classList.remove("fa-eye-slash");
+                eyeIcon.classList.add("fa-eye");
+            } else {
+                passwordInput.type = "password";
+                eyeIcon.classList.remove("fa-eye");
+                eyeIcon.classList.add("fa-eye-slash");
+            }
+        }
+        function isStrongPassword(password) {
+            if (password.length < 6) {
+                return false;
+            }
+
+            if (!/[A-Z]/.test(password)) {
+                return false;
+            }
+
+            if (!/[a-z]/.test(password)) {
+                return false;
+            }
+
+            if (!/\d/.test(password)) {
+                return false;
+            }
+
+            if (!/[!#$%^&*()_+{}\[\]:;<>,.?~\\/-]/.test(password)) {
+                return false;
+            }
+
+            return true;
+        }
+
+        function validateForm() {
+            var firstName = document.getElementById("firstName").value;
+            var lastName = document.getElementById("lastName").value;
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            var confirmedPassword = document.getElementById("confirmedPassword").value;
+            var isValid = true;
+
+            // Perform basic validation, you can add more specific checks
+            if (firstName === "") {
+                isValid = false;
+                document.getElementById("firstNameError").innerText = "Please enter First Name.";
+            } else {
+                document.getElementById("firstNameError").innerText = "";
+            }
+
+            if (lastName === "") {
+                isValid = false;
+                document.getElementById("lastNameError").innerText = "Please enter Last Name.";
+            } else {
+                document.getElementById("lastNameError").innerText = "";
+            }  
+
+            if (email === "") {
+                isValid = false;
+                document.getElementById("emailError").innerText = "Please enter email.";
+            } else {
+                document.getElementById("emailError").innerText = "";
+            }
+
+            if (password === "") {
+                isValid = false;
+                document.getElementById("passwordError").innerText = "Please enter password.";
+            }
+            else if (!isStrongPassword(password)) {
+                document.getElementById("passwordError").innerText = "Please enter a strong password (uppercase, lowercase, number, at least 6 characters, and special character).";
+                return;
+            }
+            else {
+                document.getElementById("passwordError").innerText = "";
+            }
+
+            if (confirmedPassword === "") {
+                isValid = false;
+                document.getElementById("confirmedPasswordError").innerText = "Please enter confirm password.";
+            } else {
+                document.getElementById("confirmedPasswordError").innerText = "";
+            }
+
+            if (password !== confirmedPassword) {
+                isValid = false;
+                alert("New password and confirm password do not match.");
+                return;
+            }
+            return isValid;
+        }
+
+        function Register(event) {
+            event.preventDefault();
+            if (!validateForm()) {
+                return;
+            }
+            var firstName = document.getElementById("firstName").value;
+            var lastName = document.getElementById("lastName").value;
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            var model = {
+                FirstName: firstName,
+                LastName: lastName,
+                Email: email,
+                Password: password
+            };
+            spinnerShow();
+
+            $.ajax({
+                url: '@Url.Action("Register")',
+                type: "POST",
+                data: model,
+                dataType: "json",
+                success: function (response) {
+                    if (response.success) {
+                        alert("Registered successfully!!!");
+                        window.location.href = response.redirectUrl;
+                    }
+                    else {
+                        alert("Please complete all information!");
+                        spinnerHide();
+                    }
+                },
+                error: function (error) {
+                    // Xử lý thông tin lỗi từ server
+                    var response = JSON.parse(error.responseText);
+
+                    if (!response.success) {
+                        // Lỗi xảy ra, xử lý thông báo lỗi hoặc hành động phù hợp
+                        alert("Registration failed: " + response.errors.join(", "));
+                    }
+                    spinnerHide();
+                }
+            });
+        }
+    </script>
+}
+

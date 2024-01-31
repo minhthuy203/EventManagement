@@ -1,0 +1,78 @@
+﻿@model ApplicationUser
+@{
+    ViewData["Title"] = "Update Organizer";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h2>@ViewData["Title"]</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form id="updateOrganizerForm" method="post" asp-action="UpdateOrganizer">
+            <input type="hidden" name="id" value="@Model.Id" />
+
+            <div class="form-group">
+                <label for="updateOrganizerName" class="control-label">First Name</label>
+                <input name="FirstName" id="firstName" class="form-control" type="text" value="@Model.FirstName" />
+                <span id="firstNameError" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="updateOrganizerName" class="control-label">Last Name</label>
+                <input name="LastName" id="lastName" class="form-control" type="text" value="@Model.LastName" />
+                <span id="lastNameError" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="updateOrganizerEmail" class="control-label">Email</label>
+                <input name="Email" id="email" class="form-control" value="@Model.Email" />
+                <span id="emailError" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <button type="button" onclick="validateAndUpdate()" class="btn btn-primary">Update</button>
+            </div>
+        </form>
+    </div>
+    <a asp-action="Organizer">Back to List</a>
+</div>
+
+<script>
+    function validateAndUpdate() {
+        // Reset error messages
+        resetErrorMessages();
+
+        var firstName = document.getElementById("firstName").value;
+        var lastName = document.getElementById("lastName").value;
+        var email = document.getElementById("email").value;
+
+        // Perform basic validation
+        var isValid = true;
+
+        if (!firstName) {
+            isValid = false;
+            document.getElementById("firstNameError").innerText = "Please enter First Name.";
+        }
+
+        if (!lastName) {
+            isValid = false;
+            document.getElementById("lastNameError").innerText = "Please enter Last Name.";
+        }
+
+        if (!email) {
+            isValid = false;
+            document.getElementById("emailError").innerText = "Please enter Email.";
+        }
+
+        // If the form is valid, submit it
+        if (isValid) {
+            document.getElementById("updateOrganizerForm").submit();
+        }
+    }
+
+    function resetErrorMessages() {
+        document.getElementById("firstNameError").innerText = "";
+        document.getElementById("lastNameError").innerText = "";
+        document.getElementById("emailError").innerText = "";
+    }
+</script>
+

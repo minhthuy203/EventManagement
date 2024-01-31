@@ -1,0 +1,99 @@
+﻿@model EventManagement.Models.Event
+@{
+    ViewData["Title"] = "EventDetail";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h1>Event Detail</h1>
+
+<div>
+    <a asp-action="Index">Back to List</a> |
+</div>
+<div class="event-dt-block p-80">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12">
+                <div class="event-top-dts">
+                    <div class="event-top-dt">
+                        <h3 class="event-main-title">@Html.DisplayFor(model => model.Title)</h3>
+                        <div class="event-top-info-status">
+                            <span class="event-type-name"><i class="fa-solid fa-video"></i>Online Event</span>
+                            <span class="event-type-name details-hr">Starts on <span class="ev-event-date">@Html.DisplayFor(model => model.StartTime)</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-8 col-lg-7 col-md-12">
+                <div class="main-event-dt">
+                    <div class="event-img">
+                        <img src="../img/img_events/@Html.DisplayFor(model => model.Image)" alt="">
+                    </div>
+                    <div class="main-event-content">
+                        <h4>About This Event</h4>
+                        <p>@Html.DisplayFor(model => model.Description)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-5 col-md-12">
+                <div class="main-card event-right-dt">
+                    <div class="bp-title">
+                        <h4>Event Details</h4>
+                    </div>
+                    <div class="time-left">
+                        <div class="countdown">
+                            <div class="countdown-item">
+                                <span id="day"></span>days
+                            </div>
+                            <div class="countdown-item">
+                                <span id="hour"></span>Hours
+                            </div>
+                            <div class="countdown-item">
+                                <span id="minute"></span>Minutes
+                            </div>
+                            <div class="countdown-item">
+                                <span id="second"></span>Seconds
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event-dt-right-group mt-5">
+                        <div class="event-dt-right-icon">
+                            <i class="fa-solid fa-circle-user"></i>
+                        </div>
+                        <div class="event-dt-right-content">
+                            <h4>Organised by</h4>
+                            <h5>@Html.DisplayFor(model => model.Organizer.FirstName) @Html.DisplayFor(model => model.Organizer.LastName)</h5>
+                        </div>
+                    </div>
+                    <div class="event-dt-right-group">
+                        <div class="event-dt-right-icon">
+                            <i class="fa-solid fa-calendar-day"></i>
+                        </div>
+                        <div class="event-dt-right-content">
+                            <h4>Date and Time</h4>
+                            <h5>@Html.DisplayFor(model => model.StartTime)</h5>
+                        </div>
+                    </div>
+                    <div class="event-dt-right-group">
+                        <div class="event-dt-right-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="event-dt-right-content">
+                            <h4>Location</h4>
+                            <h5 class="mb-0">@Html.DisplayFor(model => model.Location)</h5>
+                        </div>
+                    </div>
+                    <div class="event-dt-right-group">
+                        <div class="event-dt-right-icon">
+                            <i class="fa-solid fa-money-check-dollar"></i>
+                        </div>
+                        <div class="event-dt-right-content">
+                            <h4>AUD</h4>
+                            <h5 class="mb-0">$ @Html.DisplayFor(model => model.Price)</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+

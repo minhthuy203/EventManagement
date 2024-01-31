@@ -1,0 +1,213 @@
+﻿@model EventManagement.Models.Event;
+@{
+    ViewData["Title"] = "UpdateEvent";
+    Layout = "~/Views/Shared/_OriganizerDashboard.cshtml";
+}
+
+<h1>Update Event</h1>
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+<div class="row">
+    <div class="col-md-8 ">
+        <form asp-action="UpdateEvent" id="updateEventForm" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" id="EventID" value="@Model.EventID" name="EventID" />
+            <div class="form-group">
+                <label for="Title" class="control-label"></label>
+                <input id="Title" class="form-control" value="@Model.Title" name="Title" />
+                <span id="titleError" class="text-danger"></span>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label for="StartTime" class="control-label"></label>
+                    <input asp-for="StartTime" class="form-control" type="datetime-local" />
+                    <span id="starttimeError" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="EndTime" class="control-label"></label>
+                    <input asp-for="EndTime" class="form-control" type="datetime-local" />
+                    <span id="endtimeError" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="form-group col-lg-6">
+                    <label for="avatarInput" class="control-label"></label>
+                    <input type="file" class="form-control" id="avatarInput" onchange="previewImage()" name="Image" />
+                </div>
+                <div class="col-lg-6 d-flex">
+                    <div class="mb-3">
+                        <img id="avatarPreview" src="../img/img_events/@Model.Image" alt="@Model.Image" style="max-width: 100%; max-height: 200px;" />
+                    </div>
+
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="QuantityTickets" class="control-label">Quantity Tickets</label>
+                <input id="QuantityTickets" class="form-control" name="QuantityTickets" value="@Model.QuantityTickets" />
+                <span id="quantityticketError" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="Price" class="control-label">Price</label>
+                <input id="Price" class="form-control" value="@Model.Price" name="Price" />
+                <span id="priceError" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="Location" class="control-label">Location</label>
+                <input id="Location" name="Location" class="form-control" value="@Model.Location" />
+                <span id="locationError" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input id="OrganizerID" class="form-control" name="OrganizerID" value="@Model.OrganizerId" type="hidden" />
+            </div>
+            <div class="form-group">
+                <label for="Description" class="control-label">Description</label>
+                <textarea id="Description" class="form-control" name="Description">@Model.Description</textarea>
+                <span id="descriptionError" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <button id="updatebutton" class="btn btn-success">Update</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+<script>
+    var btn = document.getElementById("updatebutton");
+    btn.addEventListener("click", function () {
+            UpdateEvent();
+    });
+    function validateForm() {
+        var title = document.getElementById('Title').value;
+        var startTime = document.getElementById('StartTime').value;
+        var endTime = document.getElementById('EndTime').value;
+        var imageInput = document.getElementById('avatarInput');
+        var price = document.getElementById('Price').value;
+        var location = document.getElementById('Location').value;
+        var quantityTickets = document.getElementById('QuantityTickets').value;
+        var organizerID = document.getElementById('OrganizerID').value;
+        var description = document.getElementById('Description').value;
+        var isValid = true;
+
+        // Reset error messages
+        resetErrorMessages();
+
+
+        if (title.trim() === '') {
+            isValid = false;
+            document.getElementById("titleError").innerText = "Please enter Title.";
+        }
+        if (startTime.trim() === '') {
+            isValid = false;
+            document.getElementById("starttimeError").innerText = "Please enter start time.";
+        }
+        if (endTime.trim() === '') {
+            isValid = false;
+            document.getElementById("endtimeError").innerText = "Please enter end time.";
+        }
+        if (price.trim() === '') {
+            isValid = false;
+            document.getElementById("priceError").innerText = "Please enter price.";
+        }
+        if (location.trim() === '') {
+            isValid = false;
+            document.getElementById("locationError").innerText = "Please enter location.";
+        }
+        if (description.trim() === '') {
+            isValid = false;
+            document.getElementById("descriptionError").innerText = "Please enter description.";
+        }
+
+        // Check if the start time is in the past
+        var currentDate = new Date();
+        var selectedStartDate = new Date(startTime);
+        var selectedEndDate = new Date(endTime);
+
+        if (selectedStartDate < currentDate || selectedEndDate < currentDate || selectedEndDate < selectedStartDate) {
+            alert('Invalid Start Time or End Time.');
+            return;
+        }
+        return isValid;
+    }
+    function resetErrorMessages() {
+        document.getElementById("titleError").innerText = "";
+        document.getElementById("starttimeError").innerText = "";
+        document.getElementById("endtimeError").innerText = "";
+        document.getElementById("priceError").innerText = "";
+        document.getElementById("locationError").innerText = "";
+        document.getElementById("descriptionError").innerText = "";
+    }
+    function UpdateEvent() {
+        event.preventDefault();
+        if (!validateForm()) {
+            return
+    }
+
+        // Get form data
+        var eventID = document.getElementById('EventID').value;
+        var title = document.getElementById('Title').value;
+        var startTime = document.getElementById('StartTime').value;
+        var endTime = document.getElementById('EndTime').value;
+        var imageInput = document.getElementById('avatarInput');
+        var price = document.getElementById('Price').value;
+        var location = document.getElementById('Location').value;
+        var quantityTickets = document.getElementById('QuantityTickets').value;
+        var organizerID = document.getElementById('OrganizerID').value;
+        var description = document.getElementById('Description').value;
+
+        // Create FormData object to send file and other data
+        var formData = new FormData();
+        formData.append('EventID', eventID);
+        formData.append('Title', title);
+        formData.append('StartTime', startTime);
+        formData.append('EndTime', endTime);
+        formData.append('Image', imageInput.files[0]);
+        formData.append('Price', price);
+        formData.append('Location', location);
+        formData.append('QuantityTickets', quantityTickets);
+        formData.append('OrganizerID', organizerID);
+        formData.append('Description', description);
+
+        // Use Ajax to send data
+        $.ajax({
+            url: '@Url.Action("UpdateEvent")',
+            type: 'POST',
+            data: formData,
+            processData: false, // Important! Tell jQuery not to process the data
+            contentType: false, // Important! Tell jQuery not to set contentType
+            success: function (response) {
+                if (response.success === true) {
+                    alert('Updated successfully!');
+                    window.location.href = response.redirectUrl;
+                } else {
+                    alert('Update failed!');
+                }
+            },
+            error: function (error) {
+                console.log(error.responseText);
+            }
+        });
+    }
+    function previewImage() {
+        var input = document.getElementById('avatarInput');
+        var preview = document.getElementById('avatarPreview');
+
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                preview.src = e.target.result;
+                preview.style.display = 'block';
+            };
+            reader.readAsDataURL(input.files[0]);
+        } else {
+            preview.src = '#';
+            preview.style.display = 'none';
+        }
+    }
+</script>

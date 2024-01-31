@@ -1,0 +1,102 @@
+﻿@model IEnumerable<EventManagement.Models.Event>
+
+@{
+	ViewData["Title"] = "Events";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>@ViewData["Title"]</h2>
+<!-- Body Start -->
+
+<div class="dashboard-body">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="d-main-title">
+                    <h3><i class="fa-solid fa-calendar-days menu--icon"></i>Events</h3>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="conversion-setup">
+                    <div class="tab-content">
+                        <div class="tab-pane fade active show" id="overview-tab" role="tabpanel">
+                            <div class="table-card mt-4">
+                                <div class="main-table">
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead class="thead-dark">
+                                                <tr>
+                                                    <th>
+                                                        @Html.DisplayNameFor(model => model.Title)
+                                                    </th>
+                                                    @* <th>
+                                                    @Html.DisplayNameFor(model => model.Description)
+                                                    </th> *@
+                                                    <th>
+                                                        @Html.DisplayNameFor(model => model.StartTime)
+                                                    </th>
+                                                    <th>
+                                                        @Html.DisplayNameFor(model => model.EndTime)
+                                                    </th>
+                                                    <th>
+                                                        @Html.DisplayNameFor(model => model.Location)
+                                                    </th>
+                                                    @*  <th>
+                                                    @Html.DisplayNameFor(model => model.Image)
+                                                    </th> *@
+                                                    @*  <th>
+                                                    @Html.DisplayNameFor(model => model.QuantityTickets)
+                                                    </th> *@
+                                                    <th>
+                                                        @Html.DisplayNameFor(model => model.Organizer)
+                                                    </th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var item in Model)
+                                                {
+                                                    <tr>
+                                                        <td>
+                                                            @Html.DisplayFor(modelItem => item.Title)
+                                                        </td>
+                                                        @* <td>
+                                                    @Html.DisplayFor(modelItem => item.Description)
+                                                    </td> *@
+                                                        <td>
+                                                            @Html.DisplayFor(modelItem => item.StartTime)
+                                                        </td>
+                                                        <td>
+                                                            @Html.DisplayFor(modelItem => item.EndTime)
+                                                        </td>
+                                                        <td>
+                                                            @Html.DisplayFor(modelItem => item.Location)
+                                                        </td>
+                                                        @*   <td>
+                                                    @Html.DisplayFor(modelItem => item.Image)
+                                                    </td>
+                                                    <td>
+                                                    @Html.DisplayFor(modelItem => item.QuantityTickets)
+                                                    </td> *@
+                                                        <td>
+                                                            @Html.DisplayFor(modelItem => item.Organizer.UserName)
+                                                        </td>
+                                                        <td>
+                                                            <a asp-action="EventDetail" asp-route-id="@item.EventID"><i class="fa-solid fa-eye"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Body End -->

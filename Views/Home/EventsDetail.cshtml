@@ -1,0 +1,183 @@
+﻿@model EventManagement.Models.Event
+@{
+    ViewData["Title"] = "EventsDetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="breadcrumb-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-10">
+                <div class="barren-breadcrumb">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a asp-controller="home" asp-action="Index">Home / </a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Online Event Detail View</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="event-dt-block p-80">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12">
+                <div class="event-top-dts">
+                    <div class="event-top-dt">
+                        <h3 class="event-main-title">@Model.Title</h3>
+                        <div class="event-top-info-status">
+                            <span class="event-type-name details-hr">Starts on <span class="ev-event-date">@Model.StartTime</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-8 col-lg-7 col-md-12">
+                <div class="main-event-dt">
+                    <div class="event-img">
+                        <img src="~/img/img_events/@Model.Image" alt="">
+                    </div>
+                    <div class="main-event-content">
+                        <h4>About This Event</h4>
+                        <p>@Model.Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-5 col-md-12">
+                <div class="main-card event-right-dt">
+                    <div class="bp-title">
+                        <h4>Event Details</h4>
+                    </div>
+                    <div class="time-left">
+                        <div class="countdown">
+                            <div class="countdown-item">
+                                <span id="day"></span>days
+                            </div>
+                            <div class="countdown-item">
+                                <span id="hour"></span>Hours
+                            </div>
+                            <div class="countdown-item">
+                                <span id="minute"></span>Minutes
+                            </div>
+                            <div class="countdown-item">
+                                <span id="second"></span>Seconds
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event-dt-right-group mt-5">
+                        <div class="event-dt-right-icon">
+                            <i class="fa-solid fa-circle-user"></i>
+                        </div>
+                        <div class="event-dt-right-content">
+                            <h4>Organised by</h4>
+                            <h5>@Model.Organizer.FirstName @Model.Organizer.LastName</h5>
+                        </div>
+                    </div>
+                    <div class="event-dt-right-group">
+                        <div class="event-dt-right-icon">
+                            <i class="fa-solid fa-calendar-day"></i>
+                        </div>
+                        <div class="event-dt-right-content">
+                            <h4>Date and Time</h4>
+                            <h5>@Model.StartTime</h5>
+                        </div>
+                    </div>
+                    <div class="event-dt-right-group">
+                        <div class="event-dt-right-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="event-dt-right-content">
+                            <h4>Location</h4>
+                            <h5 class="mb-0">@Model.Location</h5>
+                        </div>
+                    </div>
+                    <div class="event-dt-right-group">
+                        <div class="event-dt-right-icon">
+                            <i class="fa-solid fa-money-check-dollar"></i>
+                        </div>
+                        <div class="event-dt-right-content">
+                            <h4>AUD</h4>
+                            <h5 class="mb-0">@Model.Price</h5>
+                        </div>
+                    </div> 
+                    <div class="event-dt-right-group">
+                        <div class="event-dt-right-icon">
+                            <i class="fa-solid fa-ticket"></i>
+                        </div>
+                        <div class="event-dt-right-content">
+                            <h4>Tickets</h4>
+                            <h5 class="mb-0">@Model.QuantityTickets</h5>
+                        </div>
+                    </div> 
+                    <div class="event-dt-right-group">
+                        <div class="event-dt-right-icon">
+                        </div>
+                        <div class="event-dt-right-content">
+                            <h4>Tickets sold</h4>
+                            <h5 class="mb-0">@ViewBag.OutStock</h5>
+                        </div>
+                    </div>
+                    @if (ViewBag.isBooked)
+                    {
+                        <div class="booking-btn">
+                            <a class="main-btn btn-hover w-100" style="background-color: grey !important; border: none" disable>Booked</a>
+                        </div>
+                    }
+                    else if (Model.QuantityTickets - ViewBag.OutStock == 0)
+                    {
+                        <div class="booking-btn">
+                            <a class="main-btn btn-hover w-100" style="background-color: red !important; border: none" disable>Out Of Stock</a>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="booking-btn">
+                            <a asp-controller="Home" asp-action="Payment" asp-route-eventId="@Model.EventID" asp-route-eventPrice="@Model.Price" id="bookingBtn" class="main-btn btn-hover w-100">Book Now</a>
+                        </div>
+                    }
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12">
+            <div class="more-events">
+                <div class="main-title position-relative">
+                    <h3>More Events</h3>
+                </div>
+                <div class="owl-carousel moreEvents-slider owl-theme">
+                    @foreach (var item in ViewBag.ShowEventMore)
+                    {
+                        <div class="item">
+                            <div class="main-card mt-4">
+                                <div class="event-thumbnail">
+                                    <a asp-area="" asp-controller="Home" asp-action="EventsDetail" asp-route-eventId="@item.EventID" class="thumbnail-img">
+                                        <img src="~/img/img_events/@item.Image" alt="">
+                                    </a>
+                                    <span class="bookmark-icon" title="Bookmark"></span>
+                                </div>
+                                <div class="event-content">
+                                    <a asp-area="" asp-controller="Home" asp-action="EventsDetail" asp-route-eventId="@item.EventID" class="event-title">@item.Title</a>
+                                    <div class="duration-price-remaining">
+                                        <span class="duration-price">AUD @item.Price</span>
+                                        <span class="remaining"></span>
+                                    </div>
+                                </div>
+                                <div class="event-footer">
+                                    <div class="event-timing">
+                                        <div class="publish-date">
+                                            <span><i class="fa-solid fa-calendar-day me-2"></i>@item.StartTime</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+

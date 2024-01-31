@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewData["Title"] = "DashBoard";
+    Layout = "~/Views/Shared/_OriganizerDashboard.cshtml";
+}
+
+<div class="dashboard-body">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="d-main-title">
+					<h3><i class="fa-solid fa-gauge me-3"></i>Dashboard</h3>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="main-card mt-4">
+					<div class="dashboard-wrap-content">
+						<div class="d-flex flex-wrap justify-content-between align-items-center p-4">
+						</div>
+						<div class="dashboard-report-content">
+							<div class="row">
+								<div class="col-xl-4 col-lg-6 col-md-6">
+									<div class="dashboard-report-card purple">
+										<div class="card-content">
+											<div class="card-content">
+												<span class="card-title fs-6">Events</span>
+												<span class="card-sub-title fs-3">@ViewBag.eventsCount</span>
+												<div class="d-flex align-items-center">
+												</div>
+											</div>
+											<div class="card-media">
+												<i class="fa-solid fa-calendar-days menu--icon"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4 col-lg-6 col-md-6">
+									<div class="dashboard-report-card info">
+										<div class="card-content">
+											<div class="card-content">
+												<span class="card-title fs-6">Subscribers</span>
+												<span class="card-sub-title fs-3">@ViewBag.subcriberCount</span>
+												<div class="d-flex align-items-center">
+												</div>
+											</div>
+											<div class="card-media">
+												<i class="fa-solid fa-user-group menu--icon"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4 col-lg-6 col-md-6">
+									<div class="dashboard-report-card red">
+										<div class="card-content">
+											<div class="card-content">
+												<span class="card-title fs-6">Income</span>
+												<span class="card-sub-title fs-3">$1230000</span>
+												<div class="d-flex align-items-center">
+												</div>
+											</div>
+											<div class="card-media">
+												<i class="fa-solid fa-dollar-sign menu--icon"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

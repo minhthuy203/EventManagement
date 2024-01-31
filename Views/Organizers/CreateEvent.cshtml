@@ -1,0 +1,230 @@
+﻿@model EventManagement.Models.Event
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_OriganizerDashboard.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>Event</h4>
+<hr />
+<div class="row">
+    <div class="col-md-8">
+        <form id="createEventForm" asp-action="CreateEvent" enctype="multipart/form-data">
+
+            <!-- Add the hidden input for EventID if you want to update an existing event -->
+            <input type="hidden" id="EventID" name="EventID" />
+
+            <div class="form-group">
+                <label for="Title" class="control-label">Title</label>
+                <input id="Title" name="Title" class="form-control" />
+                <span id="titleError" class="text-danger"></span>
+            </div>
+
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label for="StartTime" class="control-label">Start Time</label>
+                    <input id="StartTime" name="StartTime" type="datetime-local" class="form-control" />
+                    <span id="starttimeError" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="EndTime" class="control-label">End Time</label>
+                    <input id="EndTime" name="EndTime" type="datetime-local" class="form-control" />
+                    <span id="endtimeError" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="form-group col-lg-6">
+                    <label for="Image" class="control-label">Image</label>
+                    <input type="file" name="Image" class="form-control" id="avatarInput" onchange="previewImage()" />
+                    <span id="imgError" class="text-danger"></span>
+                </div>
+                <div class="col-lg-6 d-flex">
+                    <label class="form-label mx-5">New Image</label>
+                    <div class="mb-3">
+                        <img id="avatarPreview" src="#" alt="Preview" style="max-width: 100%; max-height: 200px; display: none;" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="QuantityTickets" class="control-label">Quantity Tickets</label>
+                <input id="QuantityTickets" name="QuantityTickets" value="1" type="number" class="form-control" />
+                <span id="quantityticketError" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="Location" class="control-label">Location</label>
+                <input id="Location" name="Location" class="form-control" />
+                <span id="locationError" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="Price" class="control-label">Price</label>
+                <input id="Price" name="Price" type="number" step="0.01" class="form-control" />
+                <span id="priceError" class="text-danger"></span>
+            </div>
+
+            <!-- Assuming OrganizerID is a string, otherwise adjust the input type -->
+            <div class="form-group" hidden>
+                <label for="OrganizerID" class="control-label">Organizer ID</label>
+                <input id="OrganizerID" name="OrganizerID" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label for="Description" class="control-label">Description</label>
+                <textarea id="Description" name="Description" class="form-control"></textarea>
+                <span id="descriptionError" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <button type="button" id="createbutton" class="btn btn-success mt-3">Create</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<script>
+    var btn = document.getElementById("createbutton");
+    btn.addEventListener("click", function () {
+        if (validateForm()) {
+            CreateEvents();
+        }
+    });
+
+    function validateForm() {
+        var title = document.getElementById('Title').value;
+        var startTime = document.getElementById('StartTime').value;
+        var endTime = document.getElementById('EndTime').value;
+        var imageInput = document.getElementById('avatarInput');
+        var price = document.getElementById('Price').value;
+        var location = document.getElementById('Location').value;
+        var quantityTickets = document.getElementById('QuantityTickets').value;
+        var organizerID = document.getElementById('OrganizerID').value;
+        var description = document.getElementById('Description').value;
+        var isValid = true;
+
+        // Reset error messages
+        resetErrorMessages();
+
+
+        if (title.trim() === '') {
+            isValid = false;
+            document.getElementById("titleError").innerText = "Please enter Title.";
+        }
+        if (startTime.trim() === '') {
+            isValid = false;
+            document.getElementById("starttimeError").innerText = "Please enter start time.";
+        }
+        if (endTime.trim() === '') {
+            isValid = false;
+            document.getElementById("endtimeError").innerText = "Please enter end time.";
+        }
+        if (price.trim() === '') {
+            isValid = false;
+            document.getElementById("priceError").innerText = "Please enter price.";
+        }
+        if (location.trim() === '') {
+            isValid = false;
+            document.getElementById("locationError").innerText = "Please enter location.";
+        }
+        if (description.trim() === '') {
+            isValid = false;
+            document.getElementById("descriptionError").innerText = "Please enter description.";
+        }
+
+        // Check if the start time is in the past
+        var currentDate = new Date();
+        var selectedStartDate = new Date(startTime);
+        var selectedEndDate = new Date(endTime);
+
+        if (selectedStartDate < currentDate || selectedEndDate < currentDate || selectedEndDate < selectedStartDate) {
+            alert('Invalid Start Time or End Time.');
+            return;
+        }
+
+        if (imageInput.files.length === 0) {
+            isValid = false;
+            document.getElementById("imgError").innerText = "Image is required.";
+        }
+       
+        return isValid;
+    }
+    function resetErrorMessages() {
+        document.getElementById("titleError").innerText = "";
+        document.getElementById("starttimeError").innerText = "";
+        document.getElementById("endtimeError").innerText = "";
+        document.getElementById("priceError").innerText = "";
+        document.getElementById("locationError").innerText = "";
+        document.getElementById("descriptionError").innerText = "";
+    }
+    function CreateEvents() {
+        event.preventDefault();
+        // Get form data
+        var title = document.getElementById('Title').value;
+        var startTime = document.getElementById('StartTime').value;
+        var endTime = document.getElementById('EndTime').value;
+        var imageInput = document.getElementById('avatarInput');
+        var price = document.getElementById('Price').value;
+        var location = document.getElementById('Location').value;
+        var quantityTickets = document.getElementById('QuantityTickets').value;
+        var organizerID = document.getElementById('OrganizerID').value;
+        var description = document.getElementById('Description').value;
+
+        // Create FormData object to send file and other data
+        var formData = new FormData();
+        formData.append('Title', title);
+        formData.append('StartTime', startTime);
+        formData.append('EndTime', endTime);
+        formData.append('Image', imageInput.files[0]);
+        formData.append('Price', price);
+        formData.append('Location', location);
+        formData.append('QuantityTickets', quantityTickets);
+        formData.append('OrganizerID', organizerID);
+        formData.append('Description', description);
+
+        // Use Ajax to send data
+        $.ajax({
+            url: '@Url.Action("CreateEvent")',
+            type: 'POST',
+            data: formData,
+            processData: false, // Important! Tell jQuery not to process the data
+            contentType: false, // Important! Tell jQuery not to set contentType
+            success: function (response) {
+                if (response.success === true) {
+                    alert('Added successfully!');
+                    window.location.href = response.redirectUrl;
+                } else {
+                    alert('Add new failed!');
+                }
+            },
+            error: function (error) {
+                console.log(error.responseText);
+            }
+        });
+    }
+
+    function previewImage() {
+        var input = document.getElementById('avatarInput');
+        var preview = document.getElementById('avatarPreview');
+
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                preview.src = e.target.result;
+                preview.style.display = 'block';
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        } else {
+            preview.src = '#';
+            preview.style.display = 'none';
+        }
+    }
+</script>
